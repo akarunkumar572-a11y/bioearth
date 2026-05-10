@@ -67,7 +67,7 @@ export default function HeroCarousel() {
           </div>
           
           <div className="max-w-7xl mx-auto px-8 w-full h-full relative z-20 flex items-center">
-            <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="grid md:grid-cols-2 gap-16 items-center mt-32 md:mt-0">
               <motion.div
                 initial={{ x: -50, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
