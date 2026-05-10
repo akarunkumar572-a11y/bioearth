@@ -72,12 +72,26 @@ export default function Footer() {
         </div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-10 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8 text-white/20 text-[10px] font-black uppercase tracking-[0.3em]">
-        <p>&copy; {new Date().getFullYear()} Bioearth Clinical Research Services. All Rights Reserved.</p>
-        <div className="flex gap-10">
-          <a href="#" className="hover:text-white transition-colors">Privacy</a>
-          <a href="#" className="hover:text-white transition-colors">Compliance</a>
-          <a href="#" className="hover:text-white transition-colors">Ethics</a>
+      <div className="max-w-7xl mx-auto px-10 pt-12 border-t border-white/5 flex flex-col items-center gap-8 text-white/20 text-[10px] font-black uppercase tracking-[0.3em]">
+        <div className="flex flex-col md:flex-row justify-between w-full items-center gap-8">
+          <p className="text-center md:text-left">&copy; {new Date().getFullYear()} Bioearth Clinical Research Services. All Rights Reserved.</p>
+          <div className="flex gap-6 md:gap-10">
+            <a href="#" className="hover:text-white transition-colors">Privacy</a>
+            <a href="#" className="hover:text-white transition-colors">Compliance</a>
+            <a href="#" className="hover:text-white transition-colors">Ethics</a>
+          </div>
+        </div>
+        
+        {/* Developer Credit */}
+        <div className="w-full pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4">
+          <p className="text-white/30 tracking-widest text-center md:text-left">
+            Platform Architected & Developed by <span className="text-brand-secondary">Er. Arun Kumar</span>
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-4 text-white/30">
+            <a href="tel:+916394930064" className="hover:text-brand-accent transition-colors">+91 6394930064</a>
+            <span className="hidden md:inline">•</span>
+            <a href="mailto:akarunkumar572@gmail.com" className="hover:text-brand-accent transition-colors lowercase tracking-wider font-bold">akarunkumar572@gmail.com</a>
+          </div>
         </div>
       </div>
     </footer>

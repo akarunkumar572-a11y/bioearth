@@ -48,7 +48,7 @@ h4 {
 
 /* Glassmorphism Styles */
 .glass-nav {
-  @apply bg-white/70 backdrop-blur-xl border-b border-white/20 shadow-[0_4px_30px_rgba(0, 0, 0, 0.03)];
+  @apply bg-white/70 backdrop-blur-xl border-b border-white/20 shadow-[0_4px_30px_rgba(0,0,0,0.03)];
 }
 
 .glass-card {

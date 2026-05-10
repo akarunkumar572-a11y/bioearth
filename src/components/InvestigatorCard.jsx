@@ -5,7 +5,7 @@ export default function InvestigatorCard({ name, qualification, department, desi
   return (
     <motion.div 
       whileHover={{ y: -10 }}
-      className="group glass-card rounded-[3rem] p-10 hover:bg-brand-primary transition-all duration-500"
+      className="group glass-card rounded-[3rem] p-10 hover:!bg-brand-primary transition-all duration-500"
     >
       <div className="w-20 h-20 bg-brand-secondary/10 rounded-3xl flex items-center justify-center text-brand-secondary mb-10 group-hover:bg-brand-secondary group-hover:text-brand-primary transition-all duration-500">
         <FiUser size={36} />
