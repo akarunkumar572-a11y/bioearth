@@ -14,7 +14,7 @@ export default function About() {
         description="Learn about Bioearth, a leading Clinical Research Organization (CRO) at GSVM Medical College, Kanpur, India. Discover our experience, infrastructure, and commitment to medical excellence."
         canonical="https://bioearth.example.com/about"
       />
-      <div className="bg-white min-h-screen flex flex-col relative overflow-hidden">
+      <div className="bg-white min-h-screen flex flex-col pt-[140px] relative overflow-hidden">
         {/* Background Blobs */}
         <div className="blob w-96 h-96 bg-brand-secondary/20 top-0 -left-20" />
         <div className="blob w-[500px] h-[500px] bg-brand-accent/10 bottom-0 -right-40" />

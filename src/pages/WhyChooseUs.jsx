@@ -12,7 +12,7 @@ export default function WhyChooseUs() {
         description="Reasons to choose Bioearth for clinical research: trust, medical excellence, regulatory compliance, and premium infrastructure at GSVM Medical College."
         canonical="https://bioearth.example.com/why-choose-us"
       />
-      <div className="bg-accent/10 min-h-screen flex flex-col">
+      <div className="bg-accent/10 min-h-screen flex flex-col pt-[140px]">
         <Navbar />
         <section className="max-w-5xl mx-auto py-16 px-4 flex-1">
           <SectionTitle>Why Choose Us</SectionTitle>

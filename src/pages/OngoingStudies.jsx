@@ -12,7 +12,7 @@ export default function OngoingStudies() {
         description="Stay updated on ongoing clinical studies conducted by Bioearth at GSVM Medical College and affiliated sites. Contact us for study details."
         canonical="https://bioearth.example.com/ongoing-studies"
       />
-      <div className="bg-accent/10 min-h-screen flex flex-col">
+      <div className="bg-accent/10 min-h-screen flex flex-col pt-[140px]">
         <Navbar />
         <section className="max-w-5xl mx-auto py-16 px-4 flex-1">
           <SectionTitle>Ongoing Studies</SectionTitle>

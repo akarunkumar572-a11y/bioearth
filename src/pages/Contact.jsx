@@ -13,7 +13,7 @@ export default function Contact() {
         description="Contact Bioearth for clinical research collaborations, study inquiries, and partnerships. Reach us via phone or email."
         canonical="https://bioearth.example.com/contact"
       />
-      <div className="bg-accent/10 min-h-screen flex flex-col">
+      <div className="bg-accent/10 min-h-screen flex flex-col pt-[140px]">
         <Navbar />
         <section className="max-w-5xl mx-auto py-16 px-4 flex-1">
           <SectionTitle>Contact Us</SectionTitle>

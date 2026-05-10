@@ -12,7 +12,7 @@ export default function ClinicalTrialServices() {
         description="Explore the full range of clinical trial services offered by Bioearth, including site management, regulatory submissions, patient recruitment, and more."
         canonical="https://bioearth.example.com/clinical-trial-services"
       />
-      <div className="bg-accent/10 min-h-screen flex flex-col">
+      <div className="bg-accent/10 min-h-screen flex flex-col pt-[140px]">
         <Navbar />
         <section className="max-w-5xl mx-auto py-16 px-4 flex-1">
           <SectionTitle>Clinical Trial Services</SectionTitle>

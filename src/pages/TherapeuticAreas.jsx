@@ -14,7 +14,7 @@ export default function TherapeuticAreas() {
         description="Discover the wide range of therapeutic areas covered by Bioearth, including Medicine, Surgery, Cardiology, Pediatrics, and more."
         canonical="https://bioearth.example.com/therapeutic-areas"
       />
-      <div className="bg-accent/10 min-h-screen flex flex-col">
+      <div className="bg-accent/10 min-h-screen flex flex-col pt-[140px]">
         <Navbar />
         <section className="max-w-5xl mx-auto py-16 px-4 flex-1">
           <SectionTitle>Therapeutic Areas</SectionTitle>
