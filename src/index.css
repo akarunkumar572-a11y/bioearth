@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Eyecatching "Futuristic Medical" Theme */
+  --color-brand-60: #FFFFFF;        
+  --color-brand-primary: #002D4A;   
+  --color-brand-secondary: #00E5FF;  /* Electric Cyan */
+  --color-brand-accent: #00FFA3;     /* Neon Mint */
+  --color-brand-glow: rgba(0, 229, 255, 0.5);
+  
+  --color-dark-surface: #0A192F;
+  --color-slate-900: #0F172A;
+
+  --font-main: "Plus Jakarta Sans", sans-serif;
+  --font-heading: "Outfit", sans-serif;
+  
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 3rem;
+}
+
+:root {
+  --text-main: #1E293B;
+  --text-muted: #64748B;
+  --gradient-premium: linear-gradient(135deg, #002D4A 0%, #0087A1 100%);
+  --gradient-glow: linear-gradient(135deg, #00E5FF 0%, #00FFA3 100%);
+}
+
+body {
+  @apply font-main bg-white text-slate-900 antialiased;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  @apply min-h-screen flex flex-col;
+}
+
+h1, h2, h3, h4 {
+  @apply font-heading font-extrabold tracking-tight;
+}
+
+/* Glassmorphism Styles */
+.glass-nav {
+  @apply bg-white/70 backdrop-blur-xl border-b border-white/20 shadow-[0_4px_30px_rgba(0,0,0,0.03)];
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-lg border border-white/40 shadow-2xl;
+}
+
+/* Eyecatching Animations */
+.animate-glow {
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px -5px var(--color-brand-secondary); }
+  to { box-shadow: 0 0 20px 2px var(--color-brand-secondary); }
+}
+
+/* Premium Buttons */
+.btn-eyecatching {
+  @apply relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-300 bg-brand-primary rounded-2xl hover:scale-105 active:scale-95 shadow-xl hover:shadow-brand-secondary/40;
+  background: var(--gradient-premium);
+}
+
+.btn-neon {
+  @apply inline-flex items-center justify-center px-8 py-4 font-bold text-brand-primary transition-all duration-300 rounded-2xl hover:scale-105 shadow-lg;
+  background: var(--gradient-glow);
+}
+
+/* Section Decorators */
+.blob {
+  @apply absolute -z-10 blur-[100px] opacity-20 rounded-full;
+}
+
+.section-padding {
+  @apply py-28 px-6 md:px-12 max-w-7xl mx-auto;
+}
